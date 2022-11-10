@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "868372670287",
+    "project_id": "vhelpprovider",
+    "storage_bucket": "vhelpprovider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868372670287:android:9cccc44983dcad389fc73a",
+        "android_client_info": {
+          "package_name": "com.speedum.jitsi_main_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868372670287-okf8nkem86najm1mjt62q868mqbc6qmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbXLjORtiu_6Nz_XEY0-sE6_udjkT4mxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868372670287-okf8nkem86najm1mjt62q868mqbc6qmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868372670287:android:5dcba98e5df1f09d9fc73a",
+        "android_client_info": {
+          "package_name": "com.speedum.helth_libraries_main_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868372670287-okf8nkem86najm1mjt62q868mqbc6qmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbXLjORtiu_6Nz_XEY0-sE6_udjkT4mxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868372670287-okf8nkem86najm1mjt62q868mqbc6qmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

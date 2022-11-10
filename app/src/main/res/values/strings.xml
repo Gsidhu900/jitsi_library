@@ -1,0 +1,44 @@
+<resources>
+    <string name="Push_sender_id">868372670287</string>
+<!--    <string name="Push_sender_id">390599382688</string>-->
+    <string name="app_name">Jitsi Lib</string>
+    <string name="footprint_error">You can not access the application. Please contact support.</string>
+    <string name="license_expired">Your license for this app has expired.</string>
+    <string name="error_occurred">Error occurred please try again.</string>
+    <string name="Went_Wrong_Message">Error occurred please try again.</string>
+    <string name="internet_error">No Internet available.Please try again later.</string>
+
+    <string name="enter_user_name">Please enter Phone number.</string>
+    <string name="enter_name">Please enter Name.</string>
+    <string name="enter_mobile">Please enter Mobile Number.</string>
+    <string name="enter_OTP">Please enter OTP.</string>
+    <string name="Session_Error_Message">Session_Error_Message</string>
+    <string name="Session_Error_Title">Session_Error</string>
+    <string name="enter_invalid_otp">Invalid OTP.</string>
+    <string name="enter_valid_mobile">Please enter valid Mobile Number.</string>
+    <string name="enter_password">Please enter Password.</string>
+    <string name="enter_valid_password">Password can not be less then 3 characters.</string>
+    <string name="enter_new_password">Please enter New Password.</string>
+    <string name="enter_new_valid_password">New Password can not be less then 3 characters.</string>
+    <string name="password_new_not_match">New Password and Confirm Password does not match.</string>
+    <string name="old_new_password_match">New password and old password cannot be the same.</string>
+    <string name="enter_confirm_password">Please enter Confirm Password.</string>
+    <string name="password_not_match">Password and Confirm Password does not match.</string>
+    <string name="enter_health_card">Please enter Insurance Card number.</string>
+    <string name="select_doctor">Please Select Doctor.</string>
+    <string name="select_Clinic">Please Select Clinic.</string>
+    <string name="enter_old_password">Please enter Old Password.</string>
+    <string name="enter_old_valid_password">Old Password can not be less then 3 characters.</string>
+    <string name="enter_Firstname">Please enter First Name.</string>
+    <string name="enter_Lastname">Please enter Last Name.</string>
+    <string name="enter_emailID">Please enter Email ID.</string>
+    <string name="enter_validemailID">Please enter valid Email ID.</string>
+    <string name="enter_phone_number">Please enter Phone Number.</string>
+    <string name="enter_feedback">Please enter Feedback.</string>
+    <string name="enter_passcode_length">Passcode can not be less then 4 digits.</string>
+    <string name="enter_passcode_match">Passcode does not match.</string>
+    <string name="enter_passcode_success">Passcode updated successfully.</string>
+    <string name="incorrect_passcode">Incorrect Passcode.</string>
+    <string name="please_enter_passcode">Please enter passcode.</string>
+    <string name="Copy_rights">© 2020 vHelp. All Rights Reserved.</string>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="top|center"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:gravity="bottom|center"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:gravity="top|center"
+                android:orientation="vertical">
+
+                <com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black"
+                    android:textSize="20dp"></com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold>
+
+                <com.speedum.jitsi_libraries_main_app.Util.MyTextView_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Login"
+                    android:textColor="@color/Black"
+                    android:textSize="16dp"></com.speedum.jitsi_libraries_main_app.Util.MyTextView_Regular>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_Mobile"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/fourty_five"
+                    android:layout_marginLeft="@dimen/thirty"
+                    android:layout_marginTop="@dimen/twenty_five"
+                    android:layout_marginRight="@dimen/thirty"
+                    android:background="@color/black"
+                    android:gravity="left|center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:id="@+id/LinearLayout_Country_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="3dp"
+                        android:gravity="center"
+                        android:minWidth="30dp"
+                        android:orientation="horizontal">
+
+                        <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                            android:id="@+id/CountryCodePicker_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/ImageView_UserName"
+                        android:layout_width="@dimen/twenty"
+                        android:layout_height="@dimen/twenty"
+                        android:layout_marginLeft="@dimen/twenty"
+                       ></ImageView>
+
+
+                    <com.speedum.jitsi_libraries_main_app.Util.MyEditText
+                        android:id="@+id/MyEditText_UserName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="@dimen/eight"
+                        android:background="@color/white"
+                        android:hint="user name"
+                        android:inputType="text"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/six"
+                        android:paddingTop="@dimen/one"
+                        android:singleLine="true"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/sixteen"></com.speedum.jitsi_libraries_main_app.Util.MyEditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_Password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/fourty_five"
+                    android:layout_marginLeft="@dimen/thirty"
+                    android:layout_marginTop="@dimen/twenty_five"
+                    android:layout_marginRight="@dimen/thirty"
+                    android:gravity="left|center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ImageView_PasswordIcon"
+                        android:layout_width="@dimen/twenty"
+                        android:layout_height="@dimen/twenty"
+                        android:layout_marginLeft="@dimen/twenty"
+                       ></ImageView>
+
+                    <com.speedum.jitsi_libraries_main_app.Util.MyPasswordEditText
+                        android:id="@+id/EditTextPassword_Password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="@dimen/eight"
+                        android:background="@color/white"
+                        android:hint="password"
+                        android:inputType="textPassword"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/six"
+                        android:paddingTop="@dimen/one"
+                        android:singleLine="true"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/sixteen"
+                        app:iconPosition="right"
+                        tools:ignore="HardcodedText"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/fifteen"
+                    android:layout_marginRight="@dimen/thirty"
+                    android:gravity="right|center"
+                    android:orientation="vertical">
+
+                    <com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold
+                        android:id="@+id/MyTextView_Bold_Forgot_Pass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sixteen"></com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/twenty"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.speedum.jitsi_libraries_main_app.Util.MyButtons
+                        android:id="@+id/Button_Login"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/press_button"
+                        android:text="Login"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sixteen"></com.speedum.jitsi_libraries_main_app.Util.MyButtons>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/thirty"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/sixteen"></com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold>
+
+                    <com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold
+                        android:id="@+id/MyTextView_Bold_SignUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/five"
+                        android:textSize="@dimen/sixteen"></com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

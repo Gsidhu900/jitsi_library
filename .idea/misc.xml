@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Git_Projects/health_store_lib_android/app/src/main/res/layout/activity_home_screen.xml" value="0.15925925925925927" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/app/src/main/res/layout/meeting_adapter_lay.xml" value="0.11979166666666667" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/app/src/main/res/layout/progress_hud.xml" value="0.11979166666666667" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable-xxxhdpi/bottom_sheet_back.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable-xxxhdpi/divider_horizontal.xml" value="0.1359375" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable-xxxhdpi/round_gray_new_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable/alert_back.xml" value="0.1" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable/cart_icon_back.xml" value="0.2520833333333333" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable/press_button.xml" value="0.2520833333333333" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable/round_badge.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable/round_text_box.xml" value="0.2520833333333333" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable/round_trans_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable/rounded_checked_radio_button.xml" value="0.2520833333333333" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/drawable/rounded_selected_radio_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/activity_add__prescriptions__view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/activity_brand_list_screen_view.xml" value="0.22395833333333334" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/activity_cart_screen_view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/activity_category_screen_view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/activity_order__history__screen__view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/activity_order__medication__screen__view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/activity_product__detail__dagger__view.xml" value="0.21481481481481482" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/activity_recently_viewed_view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/address__list__screen.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/address_lay.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/cart_items.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/category_widget_adapter_lay.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/content_category_screen_view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/healthstore_header_layout.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/helthstr_progress_hud.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/new__address__screen.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/order_history_adapter_lay.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/order_list_lay.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/order_med_adapter_lay.xml" value="0.22037037037037038" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/payment_method_adapter_lay.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/select_address_drawer_adapter.xml" value="0.6" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/select_address_org_drawer.xml" value="0.23435897435897435" />
+        <entry key="..\:/Git_Projects/health_store_lib_android/health_store/src/main/res/layout/select_org_drawer_adapter.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/drawable-hdpi/bottom_sheet_back.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/drawable-hdpi/ic_arrow_east_24.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/drawable-hdpi/ic_arrow_up_24.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/drawable-hdpi/round_gray_new_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/layout/qb_bottom_bar_menu_lay.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/layout/qb_bottombar_bottom_menu_sheet.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/layout/qb_bottombar_item_lay.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/layout/qb_configurable_bottombar_lay.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/layout/qbc_activity_chat_list__screen_view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/layout/qbc_activity_chat_screen_view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/layout/qbc_activity_file__viewer__view.xml" value="0.23802083333333332" />
+        <entry key="..\:/Git_Projects/quixkblox_chat_library/quickblox_chat_module/src/main/res/layout/qbc_fragment_video_conversation.xml" value="0.21944444444444444" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activities.HomeScreen.View.HomeScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextView_Logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:onClick="logout"
+                android:padding="13dp"
+                android:text="Logout"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/TextView_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView_Logout"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/TextView_Openchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/fifteen"
+            android:background="@color/black"
+            android:onClick="openChat"
+            android:padding="10dp"
+            android:text="Open chat list"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/TextView_CallButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView_Openchat"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/fifteen"
+            android:background="@color/black"
+            android:padding="10dp"
+            android:text="Start Call"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/fifteen"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/TextView_AddressScreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/ten"
+                    android:background="@color/black"
+                    android:padding="10dp"
+                    android:text="Address List"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/TextView_OrderListScreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/ten"
+                    android:background="@color/black"
+                    android:padding="10dp"
+                    android:text="Order List"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/MyBottomBar"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:visibility="gone"
+                android:id="@+id/RecyclerView_MeetingList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_ErrorMsgLay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fourty"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.speedum.jitsi_libraries_main_app.Util.MyTextView_Bold
+                    android:id="@+id/MyTextView_Regular_ErrorMsg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="noData_error"
+                    android:textColor="@color/Black"
+                    android:textSize="@dimen/sixteen" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

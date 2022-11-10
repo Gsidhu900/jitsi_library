@@ -1,0 +1,152 @@
+<resources>
+    <dimen name="Zeor_one">2dp</dimen>
+    <dimen name="one">1dp</dimen>
+    <dimen name="two">2dp</dimen>
+    <dimen name="three">3dp</dimen>
+    <dimen name="four">4dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <dimen name="six">6dp</dimen>
+    <dimen name="seven">7dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="nine">9dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="eleven">11dp</dimen>
+    <dimen name="twelve">12dp</dimen>
+    <dimen name="thirteen">13dp</dimen>
+    <dimen name="fourteen">14dp</dimen>
+    <dimen name="fifteen">15dp</dimen>
+    <dimen name="sixteen">16dp</dimen>
+    <dimen name="seventeen">17dp</dimen>
+    <dimen name="eighteen">18dp</dimen>
+    <dimen name="nineteen">19dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="twenty_one">21dp</dimen>
+    <dimen name="twenty_two">22dp</dimen>
+    <dimen name="twenty_three">23dp</dimen>
+    <dimen name="twenty_four">24dp</dimen>
+    <dimen name="twenty_five">25dp</dimen>
+    <dimen name="twenty_six">26dp</dimen>
+    <dimen name="twenty_seven">27dp</dimen>
+    <dimen name="twenty_eight">28dp</dimen>
+    <dimen name="twenty_nine">29dp</dimen>
+    <dimen name="thirty">30dp</dimen>
+    <dimen name="thirty_five">35dp</dimen>
+    <dimen name="fourty_five">45dp</dimen>
+    <dimen name="fourty">40dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="sixty">60dp</dimen>
+    <dimen name="sixty_five">65dp</dimen>
+    <dimen name="fourty_seven">57dp</dimen>
+    <dimen name="fifty_three">53dp</dimen>
+    <dimen name="fifty_five">55dp</dimen>
+    <dimen name="seventy">70dp</dimen>
+    <dimen name="seventy_five">75dp</dimen>
+    <dimen name="eighty">80dp</dimen>
+    <dimen name="eighty_five">85dp</dimen>
+    <dimen name="ninety">90dp</dimen>
+    <dimen name="hundred">100dp</dimen>
+    <dimen name="one_twenty">120dp</dimen>
+    <dimen name="one_twenty_five">125dp</dimen>
+    <dimen name="one_ten">110dp</dimen>
+    <dimen name="one_fourty">140dp</dimen>
+    <dimen name="one_fifty">150dp</dimen>
+    <dimen name="one_sixty">160dp</dimen>
+    <dimen name="one_eighty">180dp</dimen>
+    <dimen name="two_hundred">200dp</dimen>
+    <dimen name="two_fifty">250dp</dimen>
+    <dimen name="two_eighty">280dp</dimen>
+    <dimen name="three_twenty">320dp</dimen>
+    <dimen name="calender_title_size">15dp</dimen>
+
+
+    <!--video call dimensions-->
+    <dimen name="splash_main_text_size">32sp</dimen>
+    <dimen name="splash_version_text_size">12sp</dimen>
+
+    <dimen name="fab_margin_right">16dp</dimen>
+    <dimen name="fab_margin_bottom">16dp</dimen>
+
+    <dimen name="toggle_button_params_small">30dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="grid_item_divider">1dp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="item_width">80dp</dimen>
+    <dimen name="item_height">136dp</dimen>
+    <dimen name="action_bar_height">80dp</dimen>
+
+    <dimen name="toggle_button_params">50dp</dimen>
+    <dimen name="element_fragment_margin">30dp</dimen>
+    <dimen name="element_fragment_margin_small">8dp</dimen>
+
+    <dimen name="margin_common">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_very_small">3dp</dimen>
+
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_size_call">18sp</dimen>
+    <dimen name="text_size_ringing">16sp</dimen>
+
+    <integer name="users_count">10</integer>
+
+    <dimen name="padding_start">16dp</dimen>
+    <dimen name="padding_top">16dp</dimen>
+    <dimen name="padding_top_large">24dp</dimen>
+    <dimen name="padding_actionbar">24dp</dimen>
+    <dimen name="padding_user_icon">16dp</dimen>
+    <dimen name="padding_bottom">62dp</dimen>
+    <dimen name="padding_outgoing_screen">48dp</dimen>
+    <dimen name="padding_common">8dp</dimen>
+    <dimen name="padding_common_twice">16dp</dimen>
+
+    <dimen name="list_item_side_margin">@dimen/padding_common_twice</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="list_item_padding_top">8dp</dimen>
+    <dimen name="list_item_padding_bottom">8dp</dimen>
+
+    <dimen name="caller_name_text_size">22sp</dimen>
+    <dimen name="incoming_call_type_text_size">16sp</dimen>
+    <dimen name="also_on_call_text_size">16sp</dimen>
+    <dimen name="other_inc_users_text_size">16sp</dimen>
+
+    <dimen name="call_buttons_diameter">64dp</dimen>
+    <dimen name="call_buttons_padding">16dp</dimen>
+    <dimen name="call_caller_name_top_avatar_margin">16dp</dimen>
+    <dimen name="call_buttons_margin">32dp</dimen>
+    <dimen name="call_avatar_top_margin">64dp</dimen>
+    <dimen name="call_horizontal_avatar_start_margin">24dp</dimen>
+    <dimen name="call_horizontal_avatar_end_margin">24dp</dimen>
+    <dimen name="call_opponent_avatar_diameter">176dp</dimen>
+    <dimen name="call_avatar_top_margin_plus_height_actionbar">112dp</dimen>
+    <dimen name="income_call_buttons_margin">88dp</dimen>
+    <dimen name="also_in_call_text_left_right_padding">64dp</dimen>
+
+    <dimen name="call_avatar_diameter">78dp</dimen>
+    <dimen name="call_margin_top">50dp</dimen>
+    <dimen name="call_name_size">25sp</dimen>
+    <dimen name="call_end_button_width">200dp</dimen>
+    <dimen name="call_end_button_height">50dp</dimen>
+
+    <!--Pager fragment-->
+    <dimen name="pager_image_width">400dp</dimen>
+    <dimen name="pager_image_height">500dp</dimen>
+
+    <dimen name="exr_listItemHeight">48dp</dimen>
+    <dimen name="exr_mediumListItemHeight">64dp</dimen>
+    <dimen name="exr_largeListItemHeight">72dp</dimen>
+
+    <dimen name="exr_margin">16dp</dimen>
+    <dimen name="exr_iconSize">24dp</dimen>
+
+    <dimen name="button_cornor">4dp</dimen>
+    <dimen name="Home_button_text">15dp</dimen>
+    <dimen name="menu_drawer_width">290dp</dimen>
+    <dimen name="book_popup_dateMargPading">2dp</dimen>
+    <dimen name="book_popup_dateMarg">20dp</dimen>
+    <dimen name="chat_document_downloadImage_size">25dp</dimen>
+    <dimen name="chat_document_defaultimage_size">45dp</dimen>
+
+</resources>

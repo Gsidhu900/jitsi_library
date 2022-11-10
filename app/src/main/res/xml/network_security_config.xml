@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://speedumtech.com/</domain>
+        <domain includeSubdomains="true">http://app.vhelphealth.com/</domain>
+        <domain includeSubdomains="true">https://app.vhelphealth.com/</domain>
+        <domain includeSubdomains="true">http://speedumtech.com/</domain>
+        <domain includeSubdomains="true">https://speedumtech.com/patient-app/assets/</domain>
+        <domain includeSubdomains="true">https://dev.speedum.tech/</domain>
+
+    </domain-config>
+</network-security-config>

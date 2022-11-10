@@ -1,0 +1,161 @@
+<resources>
+<string name="app_name">Jitsi_Lib</string>
+
+<string name="OK">OK</string>
+<string name="Message">Message</string>
+<string name="google_maps_key">AIzaSyDp_czl3l6uGtt0nsGCYUx2-Wm_ea1hdjU</string>
+<string name="Uploaded_Prescription">Uploaded Prescription</string>
+<string name="Upload_Prescription">Upload Prescription</string>
+<string name="PHONE_DIGITS">1234567890</string>
+<string name="username_digits">qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM</string>
+
+
+<string name="Upload_prescriptionMessage">Request you to upload clear prescription images.</string>
+<string name="Upload_Rx">Upload Rx</string>
+<string name="Cart">Cart</string>
+<string name="Cart_Value">Cart Value</string>
+<string name="Addresses">Addresses</string>
+<string name="Delivery">Delivery</string>
+<string name="Deliver_to">Deliver to</string>
+<string name="Remove">Remove</string>
+<string name="delete_prescription">Are you sure you want to delete prescription?</string>
+<string name="location_selection_confirmation">Do you wish to continue without selecting your location?</string>
+<string name="providers">Providers</string>
+<string name="Session_Error_Title">Session error</string>
+<string name="Session_Error_Message">Something went wrong while creating application session.</string>
+<string name="Order_History">Order Tracking</string>
+<string name="View_Comments">View Comments</string>
+<string name="Comments">Comments</string>
+<string name="Recently_Viewed">Recently Viewed</string>
+<string name="Categories">Categories</string>
+<string name="Brands">Brands</string>
+<string name="HistoryError">No history found.</string>
+<string name="Amount_to_be_paid">Amount to be paid</string>
+<string name="Delivery_Charge">Delivery Charge</string>
+<string name="Payment_Methods">Payment Methods</string>
+<string name="Add_Addresses">Add Addresses</string>
+<string name="Address_shipping">Address shipping</string>
+<string name="Deliver_by">Deliver by</string>
+<string name="Payment_method">Payment method</string>
+<string name="Add_another_Addresses">Add another addresses</string>
+<string name="Edit_Addresses">Edit Addresses</string>
+<string name="Upload_Prescriptions">Upload Prescriptions</string>
+<string name="Upload_Progress">Uploading...</string>
+<string name="Alert">Alert !</string>
+<string name="Login">Login</string>
+<string name="Alerts">Alerts</string>
+<string name="filter">FILTER</string>
+<string name="Sort">Sort</string>
+<string name="pay_now">Pay Now</string>
+<string name="Arrived">Arrived</string>
+<string name="Disclaimer">Disclaimer</string>
+<string name="type_your_message">Enter Message</string>
+<string name="Show_More">Show More</string>
+<string name="Show_More_UnderLine"><u>View All</u></string>
+<string name="Load_More">Load More</string>
+<string name="Add_note">Add note</string>
+<string name="Add_Notes">Add Notes</string>
+<string name="Cancel">Cancel</string>
+<string name="Cancel_Order">Cancel Order</string>
+<string name="Add_Remarks_Cancel_Order">Please add remarks to cancel order.</string>
+<string name="Delete">Delete</string>
+<string name="Note">Notes</string>
+<string name="first_name">First Name</string>
+<string name="last_name">Last Name</string>
+<string name="email">Email Id</string>
+<string name="phone">Phone number</string>
+<string name="address">Address</string>
+<string name="Postal_code">Postal Code</string>
+<!--Validation messages-->
+<string name="enter_user_name">Please enter phone number.</string>
+<string name="enter_name">Please enter name.</string>
+<string name="enter_first_name">Please enter first name.</string>
+<string name="enter_last_name">Please enter last name.</string>
+<string name="enter_mobile">Please enter mobile number.</string>
+<string name="enter_mobile_alert">Please enter valid mobile number.</string>
+<string name="no_address_alert">No address found. Please add new address.</string>
+<string name="enter_valid_mobile">Please enter a valid mobile number.</string>
+<string name="enter_Firstname">Please enter First Name.</string>
+<string name="enter_Lastname">Please enter Last Name.</string>
+<string name="enter_emailID">Please enter Email ID.</string>
+<string name="InclusiveMessage">Inclusive of all taxes</string>
+<string name="Add">Add</string>
+<string name="Proceed_to_Buy">Proceed to Buy</string>
+<string name="change"><u>Change</u></string>
+<string name="Add_U"><u>Add</u></string>
+<string name="AddAddress_U"><u>Add Address</u></string>
+<string name="My_Cart">My Cart</string>
+
+<!-- Errors strings -->
+<string name="error">Error</string>
+<string name="Internet_error">Please check internet connection.</string>
+<string name="payment_select_error">Please select payment method.</string>
+<string name="error_occurred">Error occurred please try again.</string>
+<string name="Went_Wrong_Message">Something went wrong. Please try again after sometime.</string>
+<string name="Payment_Options">Payment Options</string>
+
+<string name="Select">Select</string>
+<string name="Select_Quantity">Select Quantity</string>
+<string name="noData_error">No data found.</string>
+<string name="Order_Detailt">Order Detail</string>
+<string name="Process_Order">Process Order</string>
+<string name="Review_Order">Review Order</string>
+<string name="Reorder">Re-order</string>
+<string name="Receipt_No">Receipt No :</string>
+<string name="Payment_Successful">Payment Successful</string>
+<string name="Submit">Submit</string>
+<string name="Search">Search</string>
+<string name="Skip2"><u>Skip</u></string>
+<string name="Skip">Skip</string>
+
+<string name="Select_Medication">Select Medication</string>
+<string name="search_Medication">Search Product...</string>
+<string name="search_Medication1">Search Medication</string>
+<string name="add_medication_digits">1234567890 qwertyuioplkjhgfdsazxcvbnm QWERTYUIOPLKJHGFDSAZXCVBNM </string>
+<string name="Enter_Medicine_Name">Enter product name</string>
+<string name="search_Product">Search Product</string>
+
+<string name="Go_Home">Go Home</string>
+<string name="Home">Home</string>
+<string name="Salt_Composition">Salt Composition</string>
+<string name="DESCRIPTION">DESCRIPTION</string>
+<string name="read_more"><u>Read More</u></string>
+<string name="view_all">VIEW ALL</string>
+<string name="Done">Done</string>
+<string name="edit">Edit</string>
+<string name="Save">Save</string>
+
+<string name="First_Name">First name</string>
+<string name="Last_Name">Last name</string>
+<string name="Province">Province</string>
+<string name="Country">Country</string>
+<string name="Continue">Continue</string>
+<string name="Carriers">Carriers</string>
+<string name="Confirm">Confirm</string>
+
+<string name="Pick_Location">Select delivery location</string>
+<string name="Select_Location">Select location</string>
+<string name="Fetching_Location">Fetching your location...</string>
+
+<string name="permission_denied">Permission denied.</string>
+
+<string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+<string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+<string name="permission_required_toast">Location permission is required for this demo.</string>
+<string name="google_map_key">AIzaSyBQR2ZYVtl9Rq8guFiTCUrhiCQTdGHlkTA</string>
+
+<string name="Instructions_Title"><u>Instructions for order</u></string>
+<string name="add_instructions">Please add instructions.</string>
+<string name="Add_Instructions">Add Instructions</string>
+<string name="Add_InstructionsUnderLine"><u>Add Instructions/Items</u></string>
+<string name="Edit_InstructionsUnderLine"><u>Edit Instructions/Items</u></string>
+<string name="title_activity_category_screen_view">CategoryScreenView</string>
+<!-- Strings used for fragments for navigation -->
+<string name="first_fragment_label">First Fragment</string>
+<string name="second_fragment_label">Second Fragment</string>
+<string name="next">Next</string>
+<string name="previous">Previous</string>
+
+<string name="hello_first_fragment">Hello first fragment</string>
+<string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

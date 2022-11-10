@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.quickblox.sample.messages.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+<!--    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />-->
+
+
+
+    <!--My_Application-->
+    <application
+        android:name="com.speedum.jitsi_libraries_main_app.My_Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.QuickBlox_Chat_Library"
+        tools:replace="android:name,android:theme">
+        <activity android:name="com.speedum.jitsi_libraries_main_app.UI.Activities.HomeScreen.View.HomeScreen"
+
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <!--            android:screenOrientation="portrait"-->
+        <activity android:name="com.speedum.jitsi_libraries_main_app.UI.Activities.Login_Screen.Login_View.Login_View" />
+        <activity android:name="com.speedum.jitsi_libraries_main_app.UI.Activities.Splash_Screen.Splash_Screen_View.Splash_Screen_View">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!--       <uses-library  android:name="com.speedum.quickblox_chat_module" android:required="true" />-->
+
+        <!--Qickblox activities start-->
+       <!-- <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.Call_Screen.Call_Screen_View.Call_Screen_View"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.Chat_List_Screen.Chat_List_Screen_View.Chat_List_Screen_View"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.Chat_Module.Chat_Screen.Chat_Screen_View.Chat_Screen_View"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+           android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden"
+            tools:replace="android:windowSoftInputMode" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.Chat_Module.File_Viewer.File_Viewer_View.File_Viewer_View"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.Chat_Module.ImageVideoPreview.ImageVideoPreviewView.ImageVideoPreviewView"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.Chat_Module.MediaSelectionScreen.MediaSelectionScreenView.MediaSelectionScreenView"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.Chat_User_Detail.Chat_User_Detail_View.Chat_User_Detail_View"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.Permissions_Screen.Permissions_Screen.Permissions_Screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.VC_Call_Screen.VC_Call_Screen_View.VC_Call_Screen_View"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.speedum.quickblox_chat_module.UI.Activity.VC_Call_Screen.VC_Waiting_Screen.VC_Waiting_View.VC_Waiting_View"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <service android:name="com.speedum.quickblox_chat_module.QB_Wrappers.QB_Service.CallService" />
+        &lt;!&ndash;Qickblox activities ends&ndash;&gt;
+-->
+        <meta-data
+            android:name="com.quickblox.messages.TYPE"
+            android:value="FCM" />
+        <meta-data
+            android:name="com.quickblox.messages.SENDER_ID"
+            android:value="@string/Push_sender_id" />
+        <meta-data
+            android:name="com.quickblox.messages.QB_ENVIRONMENT"
+            android:value="PRODUCTION" />
+
+<!--        <service android:name=".Services.MyFirebaseMessagingService">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.google.firebase.MESSAGING_EVENT" />-->
+<!--            </intent-filter>-->
+<!--        </service>-->
+<!--        <service android:name=".Services.MyFirebaseInstanceIDService">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />-->
+<!--            </intent-filter>-->
+<!--        </service>-->
+
+      <!--   <service android:name="com.speedum.quickblox_chat_module.QB_Wrappers.QB_Service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <service android:name="com.speedum.quickblox_chat_module.QB_Wrappers.QB_Service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>-->
+
+
+
+
+       <!-- <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.speedum.helth_libraries_main_app"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>-->
+
+    </application>
+
+
+
+</manifest>
