@@ -1,4 +1,4 @@
 rootProject.name = "Speedum JITSI Libraries"
 include ':app'
-//include ':renderscript-toolkit'
+include ':renderscript-toolkit'
 include ':jitsi_lib'

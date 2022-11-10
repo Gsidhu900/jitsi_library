@@ -2,7 +2,7 @@ plugins {
     id 'com.android.library'
     id 'maven-publish'
 }
-
+//apply plugin: 'maven-publish'
 def githubProperties = new Properties()
 githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
 
@@ -62,7 +62,7 @@ publishing {
             groupId = getGroupID()
             artifactId = getArtificatId()
             version = getVersionName()
-            artifact("${getArrPath()}/outputs/aar/jitsi-release.aar")
+            artifact("${getArrPath()}/outputs/aar/jitsilib-release.aar")
         }
     }
 
@@ -70,7 +70,7 @@ publishing {
         mavenCentral()
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/Gsidhu900/jitsi_libraryd")
+            url = uri("https://maven.pkg.github.com/Gsidhu900/jitsi_library")
 //            url = uri("https://maven.pkg.github.com/nitinSpeedum/health_store_lib_android")
 
             credentials {
