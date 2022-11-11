@@ -29,13 +29,13 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    publishing {
-        singleVariant("release") {
-            // if you don't want sources/javadoc, remove these lines
-//            withSourcesJar()
-//            withJavadocJar()
-        }
-    }
+//    publishing {
+//        singleVariant("release") {
+//            // if you don't want sources/javadoc, remove these lines
+////            withSourcesJar()
+////            withJavadocJar()
+//        }
+//    }
 }
 
 
@@ -62,15 +62,15 @@ publishing {
             groupId = getGroupID()
             artifactId = getArtificatId()
             version = getVersionName()
-            artifact("${getArrPath()}/outputs/aar/jitsilib-release.aar")
+            artifact("${getArrPath()}/outputs/aar/jit-release.aar")
         }
     }
 
     repositories {
-        mavenCentral()
+//        mavenCentral()
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/Gsidhu900/jitsi_library")
+            url = uri("https://maven.pkg.github.com/gsidhu900/jitsi_library")
 //            url = uri("https://maven.pkg.github.com/nitinSpeedum/health_store_lib_android")
 
             credentials {
@@ -86,9 +86,10 @@ publishing {
 
 
 dependencies {
-
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.3.0'
+//    implementation 'androidx.appcompat:appcompat:1.5.1'
+//    implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

@@ -73,7 +73,7 @@ public class APIManager {
 
 
     final static OkHttpClient okHttpClient = new OkHttpClient.Builder().connectTimeout(320, TimeUnit.SECONDS).writeTimeout(120, TimeUnit.SECONDS)
-            .sslSocketFactory(getSSLSocketFactory())
+//            .sslSocketFactory(getSSLSocketFactory())
             .readTimeout(320, TimeUnit.SECONDS).addInterceptor(new Interceptor() {
                 @Override
                 public Response intercept(Chain chain) throws IOException {
